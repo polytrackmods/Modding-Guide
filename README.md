@@ -7,9 +7,9 @@ This repo is a work in progress
 Setup and Basics
 - [Code Basics](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#code-basics)
 - [Setting Up a Modding Environment](https://github.com/polytrackmods/Modding-Guide/blob/main/README.md#setting-up-a-modding-environment)
-- [Setting Up a PML Repository](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#setting-up-a-pml-repository)
-- [Exporting ASAR Mods](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#exporting-asar-mods)
-- [PML Programming](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#pml-mixins)
+- [(PML Mods) Setting Up a PML Repository](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#setting-up-a-pml-repository)
+- [(ASAR Mods) Exporting ASAR Mods](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#exporting-asar-mods)
+- [(PML Mods) PML Programming](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#pml-mixins)
 - [Keybinds and Other Settings](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#creating-keybinds-and-other-settings)
 - [Modding UI](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#ui-modding)
 - [Sim Worker Basics](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#sim-worker-basics)
@@ -41,6 +41,28 @@ by(this, Pk, "f")
 ## Setting Up a Modding Environment
 
 ## Setting Up a PML Repository 
+
+A PML repository requires a couple things, with some optional additions.
+
+### latest.json
+This file should go in the root of your mod (where the mod starts), and contains information about what version of your mod PML should use for each PolyTrack game version.
+```
+//Example:
+{
+    "0.5.0":"1.0.1",
+    "0.5.0-beta4":"1.1.0",
+    "0.5.0-beta5":"1.1.0",
+    "0.5.1":"1.2.0"
+}
+```
+
+Remember: 
+- This file is in JSON format
+- YOU NEED TO UPDATE THIS FILE EVERY TIME YOU UPDATE YOUR MOD TO A NEW VERSION
+
+Each mod version you make should be a new folder in this root location with a couple of files inside:
+
+## manifest.json
 
 ## Exporting ASAR Mods
 
