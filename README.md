@@ -9,7 +9,7 @@ Setup and Basics
 - [Setting Up a Modding Environment](https://github.com/polytrackmods/Modding-Guide/blob/main/README.md#setting-up-a-modding-environment)
 - [Setting Up a PML Repository](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#setting-up-a-pml-repository)
 - [Exporting ASAR Mods](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#exporting-asar-mods)
-- [PML Mixins](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#pml-mixins)
+- [PML Programming](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#pml-mixins)
 - [Keybinds and Other Settings](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#creating-keybinds-and-other-settings)
 - [Modding UI](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#ui-modding)
 - [Sim Worker Basics](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#sim-worker-basics)
@@ -44,7 +44,7 @@ by(this, Pk, "f")
 
 ## Exporting ASAR Mods
 
-## PML Mixins
+## PML Programming and Mixins
 
 ## Creating Keybinds and Other Settings
 
