@@ -26,7 +26,7 @@ The code in the scripts is obfuscated - causing things like variable names to ch
 const xy = class {
 ```
 
-One common occurrence in code are pri ate getters and private setters. These function set private variables within functions and classes. 
+One common occurrence in code are private getters and private setters. These function set and get private variables within functions and classes. 
 ```
 //Example:
 //Setter (sets Pk)
