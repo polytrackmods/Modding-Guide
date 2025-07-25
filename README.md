@@ -62,7 +62,7 @@ Remember:
 - This file is in JSON format
 - YOU NEED TO UPDATE THIS FILE EVERY TIME YOU UPDATE YOUR MOD TO A NEW VERSION
 
-## manifest.json
+## ./<mod_version>/manifest.json
 Each mod version you make should be a new folder in your root location. Please PLEASE make new version releases of your mod instead of updating an old version.
 
 For naming your versions use Semantic Versioning. This sceme uses three digits, each corresponding to the importance of an update. The first digit (<ins>1</ins>.2.0) is for major updates, the second digit (1.<ins>2</ins>.0) is for minor updates, and the third digit (1.2.<ins>0</ins>) is for tiny updates like bugfixes that don't change the mods functionality.
