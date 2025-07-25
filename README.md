@@ -4,7 +4,15 @@ This repo is like the build-your-own-x repo, except targeted at PolyTrack moddin
 This repo is a work in progress
 
 ## Content:
-[Setting Up a Modding Environment](https://github.com/polytrackmods/Modding-Guide/blob/main/README.md#setting-up-a-modding-environment)
+Setup and Basics
+- [Code Basics](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#code-basics)
+- [Setting Up a Modding Environment](https://github.com/polytrackmods/Modding-Guide/blob/main/README.md#setting-up-a-modding-environment)
+- [Setting Up a PML Repository](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#setting-up-a-pml-repository)
+- [Exporting ASAR Mods](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#exporting-asar-mods)
+- [PML Mixins](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#pml-mixins)
+- [Keybinds and Other Settings](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#creating-keybinds-and-other-settings)
+- [Modding UI](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#ui-modding)
+- [Sim Worker Basics](https://github.com/polytrackmods/Modding-Guide?tab=readme-ov-file#sim-worker-basics)
 
 # Setup and Basics
 ## Code Basics
@@ -19,10 +27,10 @@ The code in the scripts is obfuscated - causing things like variable names to ch
 
 ## Exporting ASAR Mods
 
-## PML mixins
+## PML Mixins
 
 ## Creating Keybinds and Other Settings
 
-## UI modding
+## UI Modding
 
 ## Sim Worker Basics
