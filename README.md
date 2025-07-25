@@ -6,7 +6,7 @@ This repo is a work in progress
 ## Content:
 [Setting Up a Modding Environment](https://github.com/polytrackmods/Modding-Guide/blob/main/README.md#setting-up-a-modding-environment)
 
-## Setup and Basics
-### Setting Up a Modding Environment
+# Setup and Basics
+## Setting Up a Modding Environment
 
 
