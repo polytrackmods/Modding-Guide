@@ -46,7 +46,7 @@ by(this, Pk, "f")
 
 A PML repository requires a couple things, with some optional additions.
 
-### latest.json
+### ./latest.json
 This file should go in the root of your mod (where the mod starts), and contains information about what version of your mod PML should use for each PolyTrack game version.
 ```
 //Example:
@@ -68,6 +68,21 @@ Each mod version you make should be a new folder in your root location. Please P
 For naming your versions use Semantic Versioning. This sceme uses three digits, each corresponding to the importance of an update. The first digit (<ins>1</ins>.2.0) is for major updates, the second digit (1.<ins>2</ins>.0) is for minor updates, and the third digit (1.2.<ins>0</ins>) is for tiny updates like bugfixes that don't change the mods functionality.
 
 For example: after bugfixing version 2.3.3, you would release it as version 2.3.4
+
+
+Here is the manifest.json for version 1.1.0 of PolyLibrary:
+```
+{
+    "polymod": {
+        "name": "Poly Library",
+        "id": "plibrary",
+        "author": "DoraChad",
+        "targets": ["0.5.1"],
+        "main": "main.mod.js"
+    },
+    "dependencies": []
+}
+```
 
 ## Exporting ASAR Mods
 
