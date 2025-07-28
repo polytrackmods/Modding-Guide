@@ -70,7 +70,7 @@ For naming your versions use Semantic Versioning. This sceme uses three digits, 
 For example: after bugfixing version 2.3.3, you would release it as version 2.3.4
 
 
-Here is the manifest.json for version 1.1.0 of PolyLibrary:
+Here is the manifest.json for version 0.1.1 of PolyLibrary:
 ```
 {
     "polymod": {
