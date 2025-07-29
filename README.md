@@ -98,7 +98,7 @@ husplits - Heads up Splits
 - author: You and any other contributors to your mod
 - targets: The versions of polytrack that the mod version supports
 - main: The name of your main mod file
-- dependencies: This is a list of mods that your mod depends on. For example, if there is a mod that your mod uses (like a graphics api), then you would put that mods id in this list.
+- dependencies: This is a list of mods that your mod depends on (other mods that your mod needs in order to run properly). You need to put the mod id of any mod you would like to add to this list. As of pmlcore 1.0.2, these mods do not get automatically loaded, however future PolyLibrary versions will have this feature.
 
 
 ## Exporting ASAR Mods
