@@ -86,15 +86,7 @@ Here is the manifest.json for version 0.1.1 of PolyLibrary:
 
 Here is the data this file takes:
 - name: This is what your mod is called for users
-- id: This is your mods id, and must be unique among all mods. Here are some mod ids in use by other mods:
-```
-plibrary - PolyLibrary
-polyproxy- Poly Proxy
-3decspeed - 3 Decimal Speedometer
-coolcars - Cool Cars
-goofycars - Goofy Cars
-husplits - Heads up Splits
-```
+- id: This is your mods id, and must be unique from other mods ids.
 - author: You and any other contributors to your mod
 - targets: The versions of polytrack that the mod version supports
 - main: The name of your main mod file
