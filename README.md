@@ -46,6 +46,8 @@ by(this, Pk, "f")
 
 A PML repository requires a couple things, with some optional additions.
 
+You can get the repository template [here](https://github.com/polytrackmods/PML-Repo-Template/tree/main), but keep reading so you can understand the repo layout.
+
 ### ./latest.json
 This file should go in the root of your mod (where the mod starts), and contains information about what version of your mod PML should use for each PolyTrack game version.
 ```
