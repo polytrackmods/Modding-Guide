@@ -92,6 +92,7 @@ Here is the data this file takes:
 - main: The name of your main mod file
 - dependencies: This is a list of mods that your mod depends on (other mods that your mod needs in order to run properly). You need to put the mod id of any mod you would like to add to this list. As of pmlcore 1.0.2, these mods do not get automatically loaded, however future PolyLibrary versions will have this feature.
 
+### ./<mod_version>/main.mod.js (Main Script)
 
 ## Exporting ASAR Mods
 
