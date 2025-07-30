@@ -20,7 +20,7 @@ PolyTrack is programed in JavaScript however knowledge of HTML and CSS is also h
 
 If you are not familiar with JavaScript, that's okay! You can learn along the way (just like I did). Remember, if you don't know how to do something or you get an error, someone else on the internet has probably had the same problem, so a quick Google search should help. If not, feel free to ask the modders in the discord.
 
-The game uses ammo.js for simulation, three.js for 3d graphics, and pako.js for track code compression, but for most mods you won't have to interact with these libraries. 
+The game uses [ammo.js](https://github.com/kripken/ammo.js/) for simulation, [three.js](https://threejs.org/) for 3d graphics, and [pako.js](https://github.com/nodeca/pako) for track code compression, but for most mods you won't have to interact with these libraries. 
 
 The code is split up into the main.bundle.js, which contains most of the games code, and the simulation.worker.js, which as the name suggests is a worker of the main bundle which handles the simulation. More recently, (0.5.1) there has also been an inclusion of an error handler script.
 
